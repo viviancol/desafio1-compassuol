@@ -1,12 +1,30 @@
 body {
     background: white;
     font-family: Roboto;
+}
+
+.grid-container {
     display: grid;
-    grid-template: 1fr / 1fr 1fr;
-    padding: 51px 84px 48px 212px;
+    grid-template: 1fr 10%/ 1fr 1fr;
+    padding: auto;
     justify-content: center;
+    align-items: center;
 
 }
+.image {
+    grid-column: 1;
+    text-align: center;
+}
+.texto{
+    grid-column: 2;
+    text-align: center;
+}
+
+.botoes {
+    grid-column: 2;
+    text-align: center;
+}
+
 
 h1 {
     color: #000;
@@ -61,8 +79,28 @@ header{
     transition: background-color .5s;
 }
 
-/* footer {
-    color: black;
-    text-align: center;
-    font-style: Roboto;
-} */
+
+/* Responsividade para telas de 480 */
+@media (max-width: 480px) {
+    .grid-container {
+        justify-content:center;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+    }
+
+    .image {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .texto{
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .botoes {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+}
