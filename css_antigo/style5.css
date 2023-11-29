@@ -1,0 +1,52 @@
+body {
+    background: white;
+    font-family: Roboto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 1fr 10%/ 1fr 1fr;
+    padding: 51px 84px 48px 150px;
+    justify-items: start;
+    align-items: center;
+}
+
+.image {
+    grid-column: 1;
+    text-align: center;
+}
+
+#contato {
+    grid-column: 2;
+    text-align: center;
+}
+
+#botoes {
+    grid-column: 2;
+    text-align: center;
+}
+
+.botao {
+    background: #3EB25E ;
+    border-radius: 35px;
+    width: 418px;
+    height: 36px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+    padding-inline: 1rem;
+    padding-block: .5m;
+    border-inline: none;
+    border-block: none;
+}
+
+.botao:hover {
+    background-color: #ffff7d;
+    color:#000;
+    transition: background-color .5s;
+}
