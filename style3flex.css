@@ -31,77 +31,124 @@ body {
     width: 100%;
 }
 
-label{
+label {
     color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 161.538% */
+    padding: 10px;
+}
+
+/* altera a cor da bolinha do radio */
+input[type="radio"] {
+    -webkit-appearance: none;
+    background-color: rgba(62, 178, 94, 0.30);
+    width: 20px;
+    height: 20px;
+}
+
+input[type="radio"]:checked {
+    background-color: #3EB25E;
+}
+
+input[type="radio"]{
+  border-radius: 50%;
+}
+
+select {
+    color: #000;
+    text-align: start;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 459px;
+    height: 52px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    overflow: hidden;
+    padding-left: 40px;
+    appearance: none;
+    background-image: url('images/seta.svg');
+    background-position: left 10px top 50%;
+    background-repeat: no-repeat;
+}
+
+/* .select {
+    position: relative;
+    overflow: hidden;
+    
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 459px;
+    height: 52px;
+    margin-top: 10px;
+    padding: 10px;
+    background-image: url('images/seta.svg');
+}
+   
+.select select {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    appearance: none;
+}
+
+.select::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+} */
+
+legend {
+    color: #000;
+    text-align: center;
     font-family: Roboto;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 10px;
-}
-
-#name {
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    width: 459px;
-    height: 52px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-#email {
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    width: 459px;
-    height: 52px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-#age {
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    width: 152px;
-    height: 52px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-input::placeholder {
-    color: rgba(0, 0, 0, 0.25);
-    font-family: Roboto;
-    font-size: 27px;
-    font-style: normal;
-    /* font-weight: 400; */
-    line-height: normal;
-    width: 400px;
-    height: 40px;
+    margin-top: 46px;
     text-align: start;
-    padding: 14px;
-}
-
-header{
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: column;
-    width: 50%;
 }
 
 .container_button {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    gap: 27px;
     text-align: center;
 }
 
 .button {
     background-color: #3EB25E ;
     border-radius: 35px;
-    width: 418px;
-    height: 36px;
+    width: 199px;
+    height: 35.554px;
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -112,7 +159,7 @@ header{
     flex-shrink: 0;
     padding-inline: 1rem;
     padding-block: .5m;
-    margin-top: 14px;
+    margin-top: 26px;
     border: none;
     
 }

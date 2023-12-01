@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela 3 Flex</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style3flex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="container">
+
+    <div class='container_image'>
+        <img class="image" src="images/tela3.svg">
+    </div>
+
+    <header>
+        
+        <div class="container_form">
+        
+            <form class="form" id="form" action="dosomething.html" method="post">
+            <legend>What is the status of your account?</legend>
+            <select id="seta" name="seta">
+                <option value="I have not created an account yet.">I have not created an account yet.</option>
+                <option value="I just created an account.">I just created an account.</option>
+                <option value="I'm an old user.">I'm an old user.</option>
+            </select>
+            
+
+            <legend>In which financial markets do you operate?</legend>
+            <p>
+                <input type="radio" id="mercados1" name="mercados" value="stock market" />
+                <label for="mercados1">stock market</label>
+            </p>
+            <p>
+                <input type="radio" id="mercados2" name="mercados" value="foreign exchange" />
+                <label for="mercados2">foreign exchange</label>
+            </p>
+            <p>
+                <input type="radio" id="mercados3" name="mercados" value="commodity" />
+                <label for="mercados3">commodity</label>
+            </p>
+            <p>
+                <input type="radio" id="mercados4" name="mercados" value="bond market" />
+                <label for="mercados4">bond market</label>
+            </p>
+            <p>
+                <input type="radio" id="mercados5" name="mercados" value="cryptocurrency market" />
+                <label for="mercados5">cryptocurrency market</label>
+            </p>
+            </form>
+        </div>
+
+        <div class="container_button">
+            <a href="tela2flex.html"><button class ="button">Back</button></a>
+            <a href="tela4flex.html"><button class ="button" id="radio" type="submit">Next</button></a>
+        </div>
+
+        <div class="container_buttonlarge">
+            <a href="tela4flex.html"><button class ="buttonlarge">Skip</button></a>
+        </div>
+    
+
+    </header>
+    </main>
+    
+<script src="script_tela3.js"></script>
+</body>
+</html>
