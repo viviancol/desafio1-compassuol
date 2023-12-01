@@ -30,7 +30,7 @@ body {
     align-items: center;
     gap: 44px;
     text-align: center;
-    /* width: 100%; */
+    width: 100%;
 }
 
 h1 {
@@ -83,7 +83,6 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    flex-shrink: 0;
     padding-inline: 1rem;
     padding-block: .5m;
     margin-top: 26px;
@@ -96,13 +95,30 @@ header{
     transition: background-color .5s;
 }
 
-/* Responsividade para telas de 1030 */
-@media (max-width: 1030px) {
+/* Responsividade para telas de 320 */
+@media (max-width: 320px) {
+    .container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
     
-    /* h1{
-        font-size: 83px;
-    } */
+    h2 {
+        font-size: 18px;
+    }
+    
+    .button {
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    gap: 10px;
+    }
 }
+
 
 /* Responsividade para telas de 480 */
 @media (max-width: 768px) {
@@ -110,6 +126,7 @@ header{
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+
    }
 
    .container_text{
@@ -131,20 +148,12 @@ header{
     justify-content: center;
     width: 100%;
    }
-   
-   h1{
-    font-size: 30px;
-   }
-
-   h2 {
-    font-size: 18px;
-   }
 
    .button {
-    margin: 20;
+    margin: 20px;
    }
 
    .container_button {
-    gap: 18px;
+    gap: 7px;
 }
 }

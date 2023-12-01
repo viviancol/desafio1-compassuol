@@ -59,7 +59,7 @@ input[type="checkbox"]{
 }
 
 select {
-    ccolor: #000;
+    color: #000;
     text-align: start;
     font-family: Roboto;
     font-size: 27px;
@@ -81,6 +81,10 @@ select {
     background-repeat: no-repeat;
 }
 
+select:hover {
+    background-image: url('images/seta2.svg');
+}
+
 legend {
     color: #000;
     text-align: center;
@@ -99,7 +103,7 @@ legend {
     display: flex;
     flex-direction: row;
     /* align-items: flex-start; */
-    gap: 27px;
+    gap: 17px;
     text-align: center;
 }
 
@@ -195,14 +199,6 @@ legend {
    header {
     justify-content: center;
     width: 100%;
-   }
-   
-   h1{
-    font-size: 30px;
-   }
-
-   h2 {
-    font-size: 18px;
    }
 
    .button {

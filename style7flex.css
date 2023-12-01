@@ -55,10 +55,10 @@ header{
 
 
 /* Responsividade para telas de 1030 */
-@media (max-width: 1030px) {
+@media (max-width: 480px) {
     
     h1{
-        font-size: 83px;
+        font-size: 16px;
     }
 }
 
@@ -90,13 +90,6 @@ header{
    }
    
    h1{
-    font-size: 53px;
-   }
-
-   h2 {
-    font-size: 24px;
-   }
-   .button {
-    margin: 0;
+    font-size: 23px;
    }
 }

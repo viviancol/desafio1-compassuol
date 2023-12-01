@@ -24,32 +24,33 @@
         
             <form class="form" id="form" action="dosomething.html" method="post">
             <legend>What is the status of your account?</legend>
-            <select id="seta" name="seta">
-                <option value="I have not created an account yet.">I have not created an account yet.</option>
-                <option value="I just created an account.">I just created an account.</option>
-                <option value="I'm an old user.">I'm an old user.</option>
+            <select id="seta" name="seta" >
+                <option id="option0" value="0" selected disabled hidden>I have not created an account yet.</option>
+                <option id="option1" value="I have not created an account yet.">I have not created an account yet.</option>
+                <option id="option2" value="I just created an account.">I just created an account.</option>
+                <option id="option3" value="I'm an old user.">I'm an old user.</option>
             </select>
             
 
             <legend>In which financial markets do you operate?</legend>
             <p>
-                <input type="radio" id="mercados1" name="mercados" value="stock market" />
+                <input type="radio" id="mercados1" name="mercados" value="stock market" required />
                 <label for="mercados1">stock market</label>
             </p>
             <p>
-                <input type="radio" id="mercados2" name="mercados" value="foreign exchange" />
+                <input type="radio" id="mercados2" name="mercados" value="foreign exchange" required />
                 <label for="mercados2">foreign exchange</label>
             </p>
             <p>
-                <input type="radio" id="mercados3" name="mercados" value="commodity" />
+                <input type="radio" id="mercados3" name="mercados" value="commodity" required />
                 <label for="mercados3">commodity</label>
             </p>
             <p>
-                <input type="radio" id="mercados4" name="mercados" value="bond market" />
+                <input type="radio" id="mercados4" name="mercados" value="bond market" required />
                 <label for="mercados4">bond market</label>
             </p>
             <p>
-                <input type="radio" id="mercados5" name="mercados" value="cryptocurrency market" />
+                <input type="radio" id="mercados5" name="mercados" value="cryptocurrency market" required />
                 <label for="mercados5">cryptocurrency market</label>
             </p>
             </form>

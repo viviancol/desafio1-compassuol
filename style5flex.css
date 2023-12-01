@@ -41,7 +41,6 @@ h1 {
     font-weight: 700;
     line-height: normal;
     width: 466px;
-    height: 100px;
 }
 
 h2 {
@@ -56,12 +55,22 @@ h2 {
 
 .container_text_area {
     display: flex;
-    padding: 10px;
+    padding: 15px;
     text-align: start;
     width: 459px;
     height: 225px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.25);
+}
+#caracteresRestantes {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    text-align: end;
+    justify-content: end;
 }
 
 header{
@@ -78,7 +87,7 @@ header{
     display: flex;
     flex-direction: row;
     /* align-items: flex-start; */
-    gap: 27px;
+    gap: 17px;
     text-align: center;
 }
 
@@ -174,14 +183,6 @@ header{
    header {
     justify-content: center;
     width: 100%;
-   }
-   
-   h1{
-    font-size: 30px;
-   }
-
-   h2 {
-    font-size: 18px;
    }
 
    .button {

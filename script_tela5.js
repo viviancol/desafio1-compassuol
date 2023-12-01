@@ -1,3 +1,10 @@
+//função contar caracteres textarea
+let textarea=document.getElementById("text_area");
+let caracteresRestantes= document.getElementById("caracteresRestantes");
+textarea.oninput=function(e){
+    caracteresRestantes.innerText=(130-this.value.length);
+}
+
 // função para o botão submit da tela 5 ser liberado
 const button = document.getElementById('textarea');
 button.disabled = true;
@@ -25,7 +32,7 @@ function checkFormFields() {
 
   formFields.forEach((field) => {
     field.addEventListener('input', checkFormFields);
-  });
+  })
   
 
 

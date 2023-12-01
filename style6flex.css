@@ -67,17 +67,19 @@ label{
     margin-bottom: 30px;
 }
 
+input {
+    padding-left: 15px;
+}
 input::placeholder {
     color: rgba(0, 0, 0, 0.25);
     font-family: Roboto;
     font-size: 27px;
     font-style: normal;
-    /* font-weight: 400; */
+    font-weight: 400;
     line-height: normal;
     width: 400px;
     height: 40px;
     text-align: start;
-    padding: 14px;
 }
 
 header{
@@ -189,14 +191,6 @@ header{
    header {
     justify-content: center;
     width: 100%;
-   }
-   
-   h1{
-    font-size: 30px;
-   }
-
-   h2 {
-    font-size: 18px;
    }
 
    .button {

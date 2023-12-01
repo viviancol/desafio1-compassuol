@@ -74,54 +74,21 @@ select {
     outline: none;
     overflow: hidden;
     padding-left: 40px;
+
     appearance: none;
     background-image: url('images/seta.svg');
     background-position: left 10px top 50%;
     background-repeat: no-repeat;
 }
 
-/* .select {
-    position: relative;
-    overflow: hidden;
-    
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    width: 459px;
-    height: 52px;
-    margin-top: 10px;
-    padding: 10px;
-    background-image: url('images/seta.svg');
-}
-   
-.select select {
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    background: transparent;
-    appearance: none;
+select:hover {
+    background-image: url('images/seta2.svg');
 }
 
-.select::after {
-    content: "";
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #333;
+/* #seta:focus {
+    background-image: url('images/seta.svg');
+    background-position: left 10px top 50%;
+    background-repeat: no-repeat;
 } */
 
 legend {
@@ -140,7 +107,7 @@ legend {
     display: flex;
     flex-direction: row;
     /* align-items: flex-start; */
-    gap: 27px;
+    gap: 17px;
     text-align: center;
 }
 
@@ -148,7 +115,7 @@ legend {
     background-color: #3EB25E ;
     border-radius: 35px;
     width: 199px;
-    height: 35.554px;
+    height: 36px;
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -236,14 +203,6 @@ legend {
    header {
     justify-content: center;
     width: 100%;
-   }
-   
-   h1{
-    font-size: 30px;
-   }
-
-   h2 {
-    font-size: 18px;
    }
 
    .button {
