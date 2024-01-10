@@ -74,7 +74,6 @@ select {
     outline: none;
     overflow: hidden;
     padding-left: 40px;
-
     appearance: none;
     background-image: url('images/seta.svg');
     background-position: left 10px top 50%;
@@ -82,14 +81,8 @@ select {
 }
 
 select:hover {
-    background-image: url('images/seta2.svg');
+    background-image: url('../images/seta2.svg');
 }
-
-/* #seta:focus {
-    background-image: url('images/seta.svg');
-    background-position: left 10px top 50%;
-    background-repeat: no-repeat;
-} */
 
 legend {
     color: #000;
