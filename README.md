@@ -1,4 +1,4 @@
-# DESAFIO 1 Compass Uol
+# 🚀 DESAFIO 1 Compass Uol
 ![desafio1CompassUol](https://github.com/viviancol/desafio1CompassUol/assets/121408979/7a4b1a66-c166-458a-a8f1-64ef138d74c1)
 
 - Notion
@@ -53,11 +53,9 @@ Page 6
 
 # 🛠 Tecnologias Utilizadas
 
-HTML
-CSS
-JS
-
-# 🚀 Deploy 
+- HTML
+- CSS
+- JS
 
 # ✅ Developer
 https://www.linkedin.com/in/vivianolliveira/
