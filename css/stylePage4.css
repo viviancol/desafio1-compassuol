@@ -82,7 +82,7 @@ select {
 }
 
 select:hover {
-    background-image: url('images/seta2.svg');
+    background-image: url('../images/seta2.svg');
 }
 
 legend {
